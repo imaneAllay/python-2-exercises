@@ -12,7 +12,26 @@ def main():
 ]   
     
     # solutions.sort_people()
-    solutions.sort_people(people_list, 'name', 'desc')
-    print(people_list)
+    # solutions.sort_people(people_list, 'name', 'desc')
+    # print(people_list)
+
+    filtered_list = solutions.filter_males(people_list)
+    print(filtered_list)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 if __name__ == '__main__':
     main()
