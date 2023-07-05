@@ -1,5 +1,6 @@
 from pprint import pprint
 
+
 # def sort_people(people_list, field, direction):
 #     people_list.sort(key=lambda p: p[field], reverse= (direction == 'desc'))
 
@@ -28,6 +29,3 @@ from pprint import pprint
 #     return [p['name'] for p in people_list if p['age'] >= 15 ]
 
 
-class WordCounter:
-
-    def --
